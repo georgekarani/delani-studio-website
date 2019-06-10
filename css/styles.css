@@ -186,7 +186,7 @@ header div h1{
 #portfolio div:hover img{
   transform: scale(1.4);
 }
-.port_desc{
+.port-down{
   position: absolute;
   background: rgba(255, 255, 255, 0.63);
   width: 100%;
