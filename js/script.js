@@ -17,3 +17,12 @@ $(document).ready(function () {
     $(this).children(".text").slideToggle(500);
     $(this).children(".hide-img").fadeToggle(500);
   });
+
+  // website effects
+  $(".port_desc").removeClass("here");
+  $(".port-asc").mouseover(function () {
+    $(this).children(".port_desc").addClass("here");
+  });
+  $(".port-asc").mouseleave(function () {
+    $(this).children(".port_desc").removeClass("here").fadeIn;
+  });
