@@ -21,7 +21,7 @@ html{
 }
 body{
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto-Bold;
 }
 img{
   min-width: 10px;
@@ -29,7 +29,7 @@ img{
 }
 h3{
   width: 100%;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto-Bold";
   letter-spacing: 3px;
 }
 
@@ -98,7 +98,7 @@ h3{
 header{
   background-image: url('../assets/backgrounds/h_img.jpeg');
   height: 100vh;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto-Bold";
   letter-spacing: 3px;
   line-height: 30px;
   text-shadow: 0 0 20px #000;
