@@ -282,3 +282,52 @@ footer img:hover{
   background: orange;
   box-shadow: 0 0 20px orange);
 }
+
+/* -------------MEDIA QUERIES------------/
+--------------------------------------------- */
+@media only screen and (min-width: 1000px){
+  #portfolio>div>div>p{
+    font-size: 2em;
+  }
+}
+@media only screen and (max-width: 600px){
+  header div{
+    padding-top: 30vw;
+  }  
+
+
+
+  #whatWeDo div{
+    width: 100%;
+    min-height: 130px;
+  }
+  #portfolio>div{
+    width: 49%;
+  }
+  #portfolio>div>div>p{
+    font-size: 1.4em; 
+  }
+  form input, form textarea{
+    width: 100%;
+    margin: 5px 0;
+  }
+  form input[type=submit]{
+    width: auto;
+    padding: 0 15%;
+  }
+}
+
+/* --------MY FONTS----------------------*
+--------------------------------------------- */
+@font-face{
+  font-family: "Roboto";
+  src: url('../fonts/Roboto-Bold.ttf');
+}
+@font-face{
+  font-family: "Roboto";
+  src: url('../fonts/Roboto-Regular.ttf');
+}
+@font-face{
+  font-family: "Roboto";
+  src: url('../fonts/DRoboto-Italic.ttf');
+}
