@@ -176,7 +176,7 @@ header div h1{
 #portfolio img{
   width: 100%;
 }
-.port-asc{
+.up{
   height: 23%;
   width: 23%;
   margin-bottom: 10px;
@@ -186,7 +186,7 @@ header div h1{
 #portfolio div:hover img{
   transform: scale(1.4);
 }
-.port-down{
+.down{
   position: absolute;
   background: rgba(255, 255, 255, 0.63);
   width: 100%;

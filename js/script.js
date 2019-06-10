@@ -19,12 +19,12 @@ $(document).ready(function () {
   });
 
   // website effects
-  $(".port-down").removeClass("here");
-  $(".port-asc").mouseover(function () {
-    $(this).children(".port-down").addClass("here");
+  $(".down").removeClass("here");
+  $(".up").mouseover(function () {
+    $(this).children(".down").addClass("here");
   });
-  $(".port-asc").mouseleave(function () {
-    $(this).children(".port-down").removeClass("here").fadeIn;
+  $(".up").mouseleave(function () {
+    $(this).children(".down").removeClass("here").fadeIn;
   });
 
   // form effect
