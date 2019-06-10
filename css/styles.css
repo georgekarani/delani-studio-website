@@ -1,0 +1,11 @@
+
+/* ------- SCROLL STYLING------------------
+--------------------------------------------- */
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: yellow;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: yellow;
+  border-radius: 10px;
+}
