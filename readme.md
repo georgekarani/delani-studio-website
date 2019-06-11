@@ -1,7 +1,7 @@
 ## DELANI STUDIO WEBSITE
 
 ### Author:
-* George Karani(https://github.com/georgekarani)
+* [George Karani](https://github.com/georgekarani)
 
 
 ### Description:
